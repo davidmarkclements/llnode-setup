@@ -1,9 +1,11 @@
 {
   "name": "llnode-setup",
   "version": "1.0.0",
-  "description": "",
+  "description": "Easy one-step setup for [llnode](https://github.com/nodejs/llnode)  and all necessary dependencies.",
   "main": "index.js",
-  "bin": "./cmd.js",
+  "bin": {
+    "llnode-setup": "./cmd.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,5 +14,14 @@
   "license": "MIT",
   "dependencies": {
     "getos": "^2.8.4"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidmarkclements/llnode-setup.git"
+  },
+  "bugs": {
+    "url": "https://github.com/davidmarkclements/llnode-setup/issues"
+  },
+  "homepage": "https://github.com/davidmarkclements/llnode-setup#readme"
 }
