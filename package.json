@@ -1,6 +1,6 @@
 {
   "name": "llnode-setup",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Easy one-step setup for [llnode](https://github.com/nodejs/llnode)  and all necessary dependencies.",
   "main": "index.js",
   "bin": {
